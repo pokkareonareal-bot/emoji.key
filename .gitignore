@@ -27,3 +27,4 @@ Icon?
 # Never ignore shared Xcode schemes
 !xcshareddata/
 !*.xcscheme
+*.o
