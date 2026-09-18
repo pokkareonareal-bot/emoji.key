@@ -15,16 +15,22 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v7
 
-      - name: Inspect Xcode
+      - name: Select Xcode 26.3
         run: |
-          echo "Installed Xcodes:"
-          ls -d /Applications/Xcode*.app || true
-          echo ""
-          echo "Selected Xcode:"
-          xcode-select -p
-          echo ""
-          echo "Xcode version:"
+          sudo xcode-select -s /Applications/Xcode_26.3.app/Contents/Developer
+
+      - name: Show Xcode Version
+        run: |
           xcodebuild -version
-          echo ""
           echo "macOS SDK:"
           xcrun --sdk macosx --show-sdk-version
+
+      - name: Build macOS Target
+        run: |
+          xcodebuild -project emojiTool.xcodeproj \
+            -scheme emojiTool \
+            -destination 'platform=macOS' \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGN_IDENTITY="" \
+            CODE_SIGNING_REQUIRED=NO \
+            build
