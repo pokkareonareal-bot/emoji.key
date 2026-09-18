@@ -78,14 +78,16 @@ final class SearchWindowController: NSObject, ObservableObject {
             ctx.timingFunction = CAMediaTimingFunction(name: .easeIn)
             panel?.animator().alphaValue = 0
         } completionHandler: { [weak self] in
-            guard let self else { return }
+            MainActor.assumeIsolated {
+                guard let self else { return }
 
-            self.panel?.orderOut(nil)
-            self.resetSearch()
+                self.panel?.orderOut(nil)
+                self.resetSearch()
 
-            // 🔑 Restore focus
-            if let app = appToRestore, !app.isTerminated {
-                app.activate(options: [])
+                // 🔑 Restore focus
+                if let app = appToRestore, !app.isTerminated {
+                    app.activate(options: [])
+                }
             }
         }
     }

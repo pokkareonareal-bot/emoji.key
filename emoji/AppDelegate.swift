@@ -3,6 +3,7 @@
 import AppKit
 import SwiftUI
 
+@MainActor
 final class AppDelegate: NSObject, NSApplicationDelegate {
 
     let searchController = SearchWindowController()
