@@ -15,15 +15,16 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v7
 
-      - name: Show Xcode Version
-        run: xcodebuild -version
-
-      - name: Build macOS Target
+      - name: Inspect Xcode
         run: |
-          xcodebuild -project emojiTool.xcodeproj \
-            -scheme emojiTool \
-            -destination 'platform=macOS' \
-            CODE_SIGNING_ALLOWED=NO \
-            CODE_SIGN_IDENTITY="" \
-            CODE_SIGNING_REQUIRED=NO \
-            build
+          echo "Installed Xcodes:"
+          ls -d /Applications/Xcode*.app || true
+          echo ""
+          echo "Selected Xcode:"
+          xcode-select -p
+          echo ""
+          echo "Xcode version:"
+          xcodebuild -version
+          echo ""
+          echo "macOS SDK:"
+          xcrun --sdk macosx --show-sdk-version
