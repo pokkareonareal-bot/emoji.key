@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!--
+        ✅ App Sandbox ENABLED — FastMoji v2 is fully sandbox-compatible.
+
+        HOW: The global hotkey uses Carbon's RegisterEventHotKey, which is
+        an App Sandbox entitlement-free API. CGEventTap (the v1 approach)
+        required disabling the sandbox — that's been completely removed.
+
+        WHAT CHANGED:
+          v1: CGEventTap + global key monitor → no sandbox
+          v2: RegisterEventHotKey + NSPasteboard → full sandbox ✅
+    -->
+    <key>com.apple.security.app-sandbox</key>
+    <true/>
+
+    <!--
+        Accessibility (com.apple.security.accessibility) is NOT an entitlement.
+        It is a TCC permission granted by the user at runtime.
+        No entitlement key is required or possible — it is purely a user decision.
+        FastMoji requests it optionally for the Auto-Paste feature.
+    -->
+
+    <!--
+        SMAppService (login items) — no special entitlement required on macOS 13+.
+        The framework handles the App Sandbox boundary automatically.
+    -->
+
+    <!--
+        Network access: NOT needed — FastMoji is entirely offline.
+    -->
+</dict>
+</plist>

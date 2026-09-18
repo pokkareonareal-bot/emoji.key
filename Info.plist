@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleName</key>
+	<string>emoji.key</string>
+	<key>CFBundleIdentifier</key>
+	<string>naokomonga.emojiTool</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>14.0</string>
+	<key>NSAccessibilityUsageDescription</key>
+	<string>emoji.key can automatically paste emojis into your current app. Without this, you paste manually with ⌘V. This permission is optional.</string>
+	<key>NSQuitAlwaysKeepsWindows</key>
+	<false/>
+	<key>NSApplicationSceneManifest</key>
+	<dict>
+		<key>NSApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>NSSceneConfigurations</key>
+		<dict/>
+	</dict>
+	<key>NSHumanReadableCopyright</key>
+	<string>© 2026 Reona Monga. All rights reserved.</string>
+</dict>
+</plist>

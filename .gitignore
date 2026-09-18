@@ -1,0 +1,29 @@
+# Xcode
+## User settings & personal configurations
+xcuserdata/
+*.xcuserdatad/
+*.xcuserstate
+
+## Build generated
+build/
+DerivedData/
+*.moved-aside
+*.hmap
+*.xccheckout
+*.xcscmblueprint
+
+## Swift Package Manager
+.build/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# Never ignore shared Xcode schemes
+!xcshareddata/
+!*.xcscheme

@@ -1,0 +1,672 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "(Empty string)"
+          }
+        }
+      }
+    },
+    "→" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "→"
+          }
+        }
+      }
+    },
+    "⌨️" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "⌨️"
+          }
+        }
+      }
+    },
+    "🔥" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🔥"
+          }
+        }
+      }
+    },
+    "🤷" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "🤷"
+          }
+        }
+      }
+    },
+    "Accessibility" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アクセシビリティ"
+          }
+        }
+      }
+    },
+    "Add" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "追加"
+          }
+        }
+      }
+    },
+    "Always ranks %@ first when you type \"%@\"" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Always ranks %1$@ first when you type \"%2$@\""
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%2$@」とタイプすれば必ず%1$@が一番最初にでます"
+          }
+        }
+      }
+    },
+    "Auto-paste" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自動入力"
+          }
+        }
+      }
+    },
+    "Auto-Paste (Accessibility)" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自動入力"
+          }
+        }
+      }
+    },
+    "Automatically pastes the emoji — requires Accessibility access." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自動的に絵文字を入力します — アクセシビリティ許可が必要です"
+          }
+        }
+      }
+    },
+    "Choose Paste Mode" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "入力方法の選択"
+          }
+        }
+      }
+    },
+    "Clipboard" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "クリップボードに保存"
+          }
+        }
+      }
+    },
+    "Continue" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "続ける"
+          }
+        }
+      }
+    },
+    "Copied!" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コピー完了！"
+          }
+        }
+      }
+    },
+    "Copies the emoji and switches back. Press ⌘V to paste." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "絵文字をコピーして前のウィンドウに戻ります。 ⌘Vで貼り付け。"
+          }
+        }
+      }
+    },
+    "Copy to Clipboard" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "クリップボードに保存"
+          }
+        }
+      }
+    },
+    "Emoji" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "絵文字"
+          }
+        }
+      }
+    },
+    "emoji.key" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "emoji.key"
+          }
+        }
+      }
+    },
+    "emoji.key lives in your menu bar and fires up with %@." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "emoji.keyはメニューバーに常時表示され、%@を押すと検索ができます"
+          }
+        }
+      }
+    },
+    "emoji.key starts automatically when you log in." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "次回ログイン時もemoji.keyが自動的に起動します"
+          }
+        }
+      }
+    },
+    "fire" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "fire"
+          }
+        }
+      }
+    },
+    "General" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一般"
+          }
+        }
+      }
+    },
+    "Get Started" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "はじめる"
+          }
+        }
+      }
+    },
+    "Granted ✓" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "許可あり ✓"
+          }
+        }
+      }
+    },
+    "How It Works" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使い方"
+          }
+        }
+      }
+    },
+    "Keyboard Shortcut" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ショートカット"
+          }
+        }
+      }
+    },
+    "Keyword (e.g. lit)" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "検索キーワード (例：最高)"
+          }
+        }
+      }
+    },
+    "Keywords" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キーワード"
+          }
+        }
+      }
+    },
+    "Meeting notes: the team was " : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ライブマジで楽しい"
+          }
+        }
+      }
+    },
+    "Needs Accessibility" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アクセシビリティ許可"
+          }
+        }
+      }
+    },
+    "Next" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "次へ"
+          }
+        }
+      }
+    },
+    "No custom keywords yet" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カスタムキーワードなし"
+          }
+        }
+      }
+    },
+    "No match for %@" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%@」の検索結果なし"
+          }
+        }
+      }
+    },
+    "Notes" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "メモ"
+          }
+        }
+      }
+    },
+    "One shortcut. Anywhere." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一つのショートカットからどこへでも"
+          }
+        }
+      }
+    },
+    "Open at Login" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ログイン時に起動"
+          }
+        }
+      }
+    },
+    "Open emoji.key at Login" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "emoji.keyをログイン時に起動する"
+          }
+        }
+      }
+    },
+    "Open System Settings" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "システム設定を開く"
+          }
+        }
+      }
+    },
+    "Paste Mode" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "入力方法の選択"
+          }
+        }
+      }
+    },
+    "Pasted!" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ペースト完了！"
+          }
+        }
+      }
+    },
+    "Permissions" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "許可"
+          }
+        }
+      }
+    },
+    "Press %@ from any app" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@を押します(どのソフトからでも！)"
+          }
+        }
+      }
+    },
+    "Press ↩ — emoji lands where you were typing" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "↩で絵文字が挿入されます"
+          }
+        }
+      }
+    },
+    "Press the shortcut to open emoji.key from anywhere." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "emoji.keyはどのソフトからでもこのショートカットで呼び出せます"
+          }
+        }
+      }
+    },
+    "pressed" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "を押す"
+          }
+        }
+      }
+    },
+    "Quit emoji.key" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "emoji.keyを終了する"
+          }
+        }
+      }
+    },
+    "Ready ✓" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "準備OK ✓"
+          }
+        }
+      }
+    },
+    "Recent" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recent"
+          }
+        }
+      }
+    },
+    "Recommended" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "おすすめ"
+          }
+        }
+      }
+    },
+    "Required for Auto-Paste (optional). emoji.key works without it — you'll just paste manually with ⌘V." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自動入力に必要です。emoji.keyは⌘Vで手動入力することで、許可せずに利用可能です。"
+          }
+        }
+      }
+    },
+    "Search Emojis" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "絵文字を検索"
+          }
+        }
+      }
+    },
+    "Settings..." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "設定"
+          }
+        }
+      }
+    },
+    "Show Tutorial" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "チュートリアルを表示"
+          }
+        }
+      }
+    },
+    "Start typing to search %lld emojis" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld個の絵文字から検索"
+          }
+        }
+      }
+    },
+    "Start Using emoji.key" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "emoji.keyを使い始めよう"
+          }
+        }
+      }
+    },
+    "Switch to your app and press ⌘V" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "テキストボックスを選択して⌘Vを押す"
+          }
+        }
+      }
+    },
+    "System" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "システム"
+          }
+        }
+      }
+    },
+    "System-wide  ·  Smart search  ·  Instant" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "どのソフトでも、賢く、早く"
+          }
+        }
+      }
+    },
+    "The fastest way to type emojis." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "絵文字入力の最速手段"
+          }
+        }
+      }
+    },
+    "Trigger Shortcut" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "呼び出しショートカット"
+          }
+        }
+      }
+    },
+    "Type any keyword and it will always show that emoji first." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "検索結果ではこの絵文字が最優先されます"
+          }
+        }
+      }
+    },
+    "Type to search — results appear instantly" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "検索すると、結果がすぐに出ます"
+          }
+        }
+      }
+    },
+    "Works for English and Japanese. The keyword is case-insensitive." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "日本語または英語で使えます"
+          }
+        }
+      }
+    },
+    "You can always change this in Settings." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "設定からいつでも変更できます"
+          }
+        }
+      }
+    },
+    "You're All Set!" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バッチリです！"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.1"
+}
