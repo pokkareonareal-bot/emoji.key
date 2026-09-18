@@ -9,14 +9,14 @@ on:
 jobs:
   build:
     name: Build macOS App
-    runs-on: macos-14
+    runs-on: macos-15
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
-      - name: Select Xcode
-        run: sudo xcode-select -switch /Applications/Xcode_15.4.app || sudo xcode-select -switch /Applications/Xcode.app
+      - name: Show Xcode Version
+        run: xcodebuild -version
 
       - name: Build macOS Target
         run: |
